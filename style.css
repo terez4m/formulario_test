@@ -1,0 +1,44 @@
+body{
+    margin:0;
+}
+
+.leftSide{
+    background-image: url(./imagelights.jpg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 48vw;
+    width: 40vw;
+}
+
+.logo{
+    position: relative;
+    top: 10vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo>img{
+    height: 50px;
+    color: white;
+}
+
+.logo>h1{
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+.imageCred{
+    color: white;
+    font-family: monospace;
+    position: absolute;
+    width: 50%;
+    left: 7%;
+    bottom: 0;
+}
+.imageCred>a{
+    color: white;
+}
